@@ -1,19 +1,24 @@
 # DRUPAL-ATTACK
-DRUPALGEDDON 2
 
-Remote code execution
+---
+**DRUPALGEDDON 2**
 
-El exploit "Drupalgeddon2" permite a los atacantes ejecutar código arbitrario en un sitio web vulnerable. Aquí hay un resumen de cómo funciona:
-Identificación de la vulnerabilidad: El atacante identifica un sitio web que utiliza una versión vulnerable de Drupal.
-Envio de una solicitud maliciosa: El atacante envía una solicitud HTTP maliciosa al servidor. Esta solicitud aprovecha la vulnerabilidad para inyectar código malicioso.
-Ejecución de código: El servidor web procesa la solicitud y ejecuta el código inyectado por el atacante, lo que permite al atacante tomar control del servidor.
-Medidas de Protección
-Para protegerte de este tipo de ataques, aquí tienes algunas medidas que puedes tomar:
-Mantén el software actualizado: Asegúrate de que tu instalación de Drupal esté siempre actualizada con las últimas versiones y parches de seguridad.
-Utiliza módulos de seguridad: Instala y configura módulos de seguridad que pueden ayudar a detectar y prevenir ataques.
-Monitoreo y auditoría: Realiza auditorías regulares de seguridad y monitorea tu sitio web en busca de actividades sospechosas.
-Configuraciones de seguridad del servidor: Asegúrate de que tu servidor web esté configurado de manera segura y que solo los servicios necesarios estén expuestos a Internet.
+**Remote Code Execution**
 
-Accedes a esta página web y descargar una versión antigua para que tenga más vulnerabilidades yo he descargado la 6.10 desde esta pagina web
-**`Drupal 7.7 - Fuentes PHP`**
+The "Drupalgeddon2" exploit allows attackers to execute arbitrary code on a vulnerable website. Here's a summary of how it works:
+- **Identifying the vulnerability**: The attacker identifies a website running a vulnerable version of Drupal.
+- **Sending a malicious request**: The attacker sends a malicious HTTP request to the server. This request exploits the vulnerability to inject malicious code.
+- **Code execution**: The web server processes the request and executes the injected code, enabling the attacker to take control of the server.
+
+**Protection Measures**
+To protect yourself from these kinds of attacks, here are some measures you can take:
+- **Keep your software updated**: Ensure your Drupal installation is always up-to-date with the latest versions and security patches.
+- **Use security modules**: Install and configure security modules that can help detect and prevent attacks.
+- **Monitoring and auditing**: Perform regular security audits and monitor your website for suspicious activity.
+- **Server security configurations**: Ensure your web server is securely configured and that only necessary services are exposed to the internet.
+
+**Access this website and download an older version to increase vulnerabilities**: I downloaded version 6.10 from this website.  
+*Drupal 7.7 - PHP Sources*
+
+---
 
